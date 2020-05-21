@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.1" class="java.beans.XMLDecoder">
+ <object class="persistencia.FlotaDTO" id="FlotaDTO0">
+  <void property="automoviles">
+   <void method="add">
+    <object class="persistencia.AutomovilDTO">
+     <void property="anio_fabricacion">
+      <int>1990</int>
+     </void>
+     <void property="marca">
+      <string>Marca1</string>
+     </void>
+     <void property="modelo">
+      <string>Modelo1</string>
+     </void>
+     <void property="motor">
+      <object class="modelo.Motor">
+       <void property="combustible">
+        <string>Diesel</string>
+       </void>
+       <void property="n_Serie">
+        <string>1234</string>
+       </void>
+      </object>
+     </void>
+     <void property="n_chasis">
+      <string>1111</string>
+     </void>
+     <void property="patente">
+      <string>Patente1</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="persistencia.AutomovilDTO">
+     <void property="anio_fabricacion">
+      <int>1990</int>
+     </void>
+     <void property="marca">
+      <string>Marca2</string>
+     </void>
+     <void property="modelo">
+      <string>Modelo2</string>
+     </void>
+     <void property="motor">
+      <object class="modelo.Motor">
+       <void property="combustible">
+        <string>Gasoil</string>
+       </void>
+       <void property="n_Serie">
+        <string>1234</string>
+       </void>
+      </object>
+     </void>
+     <void property="n_chasis">
+      <string>2222</string>
+     </void>
+     <void property="patente">
+      <string>Patente2</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="nombre">
+   <string>La Flota</string>
+  </void>
+ </object>
+</java>

@@ -5,8 +5,10 @@ import java.io.IOException;
 import modelo.Automovil;
 import modelo.Flota;
 import modelo.Motor;
+import persistencia.FlotaDTO;
 import persistencia.IPersistencia;
 import persistencia.PersistenciaXML;
+import persistencia.UtilFlota;
 
 public class PruebaEscrituraXML {
 
@@ -25,8 +27,12 @@ public class PruebaEscrituraXML {
 		try {
 			persistencia.abrirOutput("Flota.xml");
 			System.out.println("Se creo el archivo xml.");
-			persistencia.escribir(flota);
+			
+			FlotaDTO fDTO = UtilFlota.flotaDTOFromFlota(flota);
+			persistencia.escribir(fDTO);
 			System.out.println("Flota guardada exitosamente.");
+			
+			
 			persistencia.cerrarOutput();
 			System.out.println("Archivo cerrado satisfactoriamente.");
 		}

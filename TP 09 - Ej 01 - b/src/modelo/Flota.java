@@ -3,7 +3,7 @@ package modelo;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Flota implements Serializable {
+public class Flota {
 
 	private String nombre;
 	private ArrayList<Automovil> automoviles = new ArrayList<Automovil>();
@@ -20,16 +20,8 @@ public class Flota implements Serializable {
 		return nombre;
 	}
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
 	public ArrayList<Automovil> getAutomoviles() {
 		return automoviles;
-	}
-
-	public void setAutomoviles(ArrayList<Automovil> automoviles) {
-		this.automoviles = automoviles;
 	}
 
 	public void agregarAutomovil(Automovil automovil) {

@@ -1,18 +1,11 @@
-package modelo;
+package persistencia;
 
-public class Vehiculo {
+import java.io.Serializable;
+
+public class VehiculoDTO implements Serializable{
 
 	private String N_chasis;
 	private int anio_fabricacion;
-
-	public Vehiculo() {
-	}
-
-	public Vehiculo(String n_chasis, int anio_fabricacion) {
-		super();
-		N_chasis = n_chasis;
-		this.anio_fabricacion = anio_fabricacion;
-	}
 
 	public String getN_chasis() {
 		return N_chasis;

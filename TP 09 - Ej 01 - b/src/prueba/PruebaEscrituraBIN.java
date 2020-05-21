@@ -5,12 +5,15 @@ import java.io.IOException;
 import modelo.Automovil;
 import modelo.Flota;
 import modelo.Motor;
+import persistencia.FlotaDTO;
 import persistencia.IPersistencia;
 import persistencia.PersistenciaBIN;
+import persistencia.UtilFlota;
 
 public class PruebaEscrituraBIN {
 
 	public static void main(String[] args) {
+		
 		IPersistencia persistencia = new PersistenciaBIN();
 		
 		Flota flota = new Flota("La Flota");
@@ -24,8 +27,11 @@ public class PruebaEscrituraBIN {
 		try {
 			persistencia.abrirOutput("Flota.bin");
 			System.out.println("Se creo el archivo binario.");
-			persistencia.escribir(flota);
+			
+			FlotaDTO fDTO = UtilFlota.flotaDTOFromFlota(flota);
+			persistencia.escribir(fDTO);
 			System.out.println("Flota guardada exitosamente.");
+			
 			persistencia.cerrarOutput();
 			System.out.println("Archivo cerrado satisfactoriamente.");
 		}

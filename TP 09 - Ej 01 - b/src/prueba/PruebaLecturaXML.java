@@ -3,8 +3,10 @@ package prueba;
 import java.io.IOException;
 
 import modelo.Flota;
+import persistencia.FlotaDTO;
 import persistencia.IPersistencia;
 import persistencia.PersistenciaXML;
+import persistencia.UtilFlota;
 
 public class PruebaLecturaXML {
 
@@ -17,8 +19,12 @@ public class PruebaLecturaXML {
 		try {
 			persistencia.abrirInput("Flota.xml");
 			System.out.println("Se abrio el archivo xml.");
-			flota= (Flota) persistencia.leer();
+			
+			
+			FlotaDTO fDTO = (FlotaDTO) persistencia.leer();
+			flota = UtilFlota.flotaFromFlotaDTO(fDTO);
 			System.out.println("Flota cargada exitosamente.");
+			
 			persistencia.cerrarInput();
 			System.out.println("Archivo cerrado satisfactoriamente.");
 		}
