@@ -13,8 +13,7 @@ public class Util
 			Thread.sleep(r.nextInt(maximo));
 		} catch (InterruptedException e)
 		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("Error de espera");
 		}
 	}
 }
