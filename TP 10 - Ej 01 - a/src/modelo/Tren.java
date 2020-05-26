@@ -4,7 +4,6 @@ import util.Util;
 
 public class Tren extends Thread{
 
-	private String nombre;
 	private TramoDeVia via;
 
 	public Tren() {
@@ -14,14 +13,6 @@ public class Tren extends Thread{
 	public Tren(String nombre,TramoDeVia via) {
 		super(nombre);
 		this.via = via;
-	}
-
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
 	}
 
 	public TramoDeVia getVia() {
