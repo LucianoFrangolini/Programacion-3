@@ -38,7 +38,7 @@ public class TramoDeVia {
 			System.out.println();
 		} else if (this.siguiente.equalsIgnoreCase("derecho") && this.cantidadTrenes == 0) {
 			this.siguiente = "izquierdo";
-			System.out.println("---------La vía ahora va hacia el lado derecho");
+			System.out.println("---------La vía ahora va hacia el lado izquierdo");
 			System.out.println();
 		}
 	}
