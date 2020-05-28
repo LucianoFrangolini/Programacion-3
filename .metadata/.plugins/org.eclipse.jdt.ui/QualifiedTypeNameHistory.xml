@@ -10,8 +10,8 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.nimbus.State"/>
     <fullyQualifiedTypeName name="modelo.Main"/>
     <fullyQualifiedTypeName name="java.lang.Thread.State"/>
-    <fullyQualifiedTypeName name="util.Util"/>
     <fullyQualifiedTypeName name="modelo.Mostrador"/>
     <fullyQualifiedTypeName name="modelo.Persona"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="util.Util"/>
 </qualifiedTypeNameHistroy>
