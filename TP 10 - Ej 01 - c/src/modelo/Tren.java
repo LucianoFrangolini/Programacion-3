@@ -43,7 +43,7 @@ public class Tren extends Thread {
 					System.out.println(this.getName()+" se pone a esperar del lado "+this.lado);
 					System.out.println();
 					Thread.sleep(2000);
-					if (this.contador>=10) {
+					if (this.contador>=5) {
 						this.via.cambiaSiguiente();
 					}
 				} catch (InterruptedException e) {

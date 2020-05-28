@@ -20,8 +20,6 @@ public class TramoDeVia {
 	public void cruzarTren(Tren tren) {
 
 		entraTren(tren);
-		System.out.println("Actualmente hay " + this.cantidadTrenes + " tren/es en la vía");
-		System.out.println();
 
 		if (this.siguiente.equalsIgnoreCase("izquierdo"))
 			pasaTrenIzquierdo(tren);
@@ -29,8 +27,6 @@ public class TramoDeVia {
 			pasaTrenDerecho(tren);
 
 		saleTren(tren);
-		System.out.println("Actualmente hay " + this.cantidadTrenes + " tren/es en la vía");
-		System.out.println();
 
 		if (this.siguiente.equalsIgnoreCase("izquierdo") && this.cantidadTrenes == 0) {
 			this.siguiente = "derecho";
@@ -48,13 +44,17 @@ public class TramoDeVia {
 		this.cantidadTrenes += 1;
 		System.out.println(
 				"El tren " + tren.getName() + " ingresó satisfactoriamente a la vía por el lado " + this.siguiente);
+		System.out.println("Actualmente hay " + this.cantidadTrenes + " tren/es en la vía");
+		System.out.println();
 	}
 
 	public void saleTren(Tren tren) {
 		this.trenesEnVia.remove(tren);
 		this.cantidadTrenes -= 1;
 		System.out.println(
-				"El tren " + tren.getName() + " salió satisfactoriamente de la vía por el lado " + this.siguiente);
+				"El tren " + tren.getName() + " salió satisfactoriamente de la vía");
+		System.out.println("Actualmente hay " + this.cantidadTrenes + " tren/es en la vía");
+		System.out.println();
 	}
 
 	public synchronized void pasaTrenIzquierdo(Tren tren) {
