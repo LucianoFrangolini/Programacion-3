@@ -28,13 +28,13 @@ public class TramoDeVia {
 
 		saleTren(tren);
 
-		if (this.siguiente.equalsIgnoreCase("izquierdo") && this.cantidadTrenes == 0) {
+		if (this.siguiente.equalsIgnoreCase("izquierdo")) {
 			this.siguiente = "derecho";
-			System.out.println("---------La vía ahora va hacia el lado derecho");
+			System.out.println("---------Ahora ingresan en la via trenes que se dirigen hacia el lado derecho");
 			System.out.println();
-		} else if (this.siguiente.equalsIgnoreCase("derecho") && this.cantidadTrenes == 0) {
+		} else if (this.siguiente.equalsIgnoreCase("derecho")) {
 			this.siguiente = "izquierdo";
-			System.out.println("---------La vía ahora va hacia el lado izquierdo");
+			System.out.println("---------Ahora ingresan en la via trenes que se dirigen hacia el lado izquierdo");
 			System.out.println();
 		}
 	}

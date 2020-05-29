@@ -14,4 +14,9 @@
     <fullyQualifiedTypeName name="modelo.Persona"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="util.Util"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="controlador.Controlador"/>
+    <fullyQualifiedTypeName name="vista.IVista"/>
+    <fullyQualifiedTypeName name="vista.Ventana"/>
+    <fullyQualifiedTypeName name="modelo.CalculadoraBasica"/>
 </qualifiedTypeNameHistroy>

@@ -54,8 +54,15 @@ public class Controlador implements ActionListener{
 	}
 
 	private void dividir() {
-		double x = this.vista.getDivUno();
-		double y = this.vista.getDivDos();
+		double x=0;
+		double y=0;
+		try {
+			x = this.vista.getDivUno();
+			y = this.vista.getDivDos();
+		}
+		catch(NullPointerException e) {
+			System.out.println("Error de lectura");
+		}
 		double res = this.calculadora.dividir(x, y);
 		this.vista.setResultadoDivision(res);
 	}
