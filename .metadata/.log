@@ -878,3 +878,1374 @@ org.eclipse.jface.text.BadLocationException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SESSION 2020-05-31 15:21:21.466 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-31 15:21:45.868
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Luciano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:24:03.964
+!MESSAGE The POM for CompetenciaPokemon:Client:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:24:04.480
+!MESSAGE The POM for CompetenciaPokemon:Client:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:31:06.824
+!MESSAGE The POM for CompetenciaPokemon:Client:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:33:17.276
+!MESSAGE The POM for CompetenciaPokemon:Client:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:36:26.750
+!MESSAGE Pack file C:\Lucho\Programas Java\Programacion 3\TP_Pokemones\Grupo07\.git\objects\pack\pack-592fbf9a692405cfecaaaeb535ccdd741003f790.pack was deleted, removing it from pack list
+!STACK 0
+java.io.FileNotFoundException: C:\Lucho\Programas Java\Programacion 3\TP_Pokemones\Grupo07\.git\objects\pack\pack-592fbf9a692405cfecaaaeb535ccdd741003f790.pack (El sistema no puede encontrar el archivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:347)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:261)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at org.eclipse.jgit.internal.storage.file.PackFile.doOpen(PackFile.java:691)
+	at org.eclipse.jgit.internal.storage.file.PackFile.beginWindowCache(PackFile.java:672)
+	at org.eclipse.jgit.internal.storage.file.WindowCache.load(WindowCache.java:295)
+	at org.eclipse.jgit.internal.storage.file.WindowCache.getOrLoad(WindowCache.java:373)
+	at org.eclipse.jgit.internal.storage.file.WindowCache.get(WindowCache.java:184)
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.pin(WindowCursor.java:360)
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.copy(WindowCursor.java:259)
+	at org.eclipse.jgit.internal.storage.file.PackFile.readFully(PackFile.java:648)
+	at org.eclipse.jgit.internal.storage.file.PackFile.load(PackFile.java:830)
+	at org.eclipse.jgit.internal.storage.file.PackFile.get(PackFile.java:318)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectory.openPackedObject(ObjectDirectory.java:488)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectory.openPackedFromSelfOrAlternate(ObjectDirectory.java:446)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectory.openObject(ObjectDirectory.java:437)
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:165)
+	at org.eclipse.jgit.lib.ObjectReader.open(ObjectReader.java:236)
+	at org.eclipse.jgit.revwalk.RevWalk.parseAny(RevWalk.java:941)
+	at org.eclipse.jgit.revwalk.RevWalk.parseTree(RevWalk.java:879)
+	at org.eclipse.jgit.lib.IndexDiff.<init>(IndexDiff.java:323)
+	at org.eclipse.jgit.lib.IndexDiff.<init>(IndexDiff.java:304)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.lambda$6(IndexDiffCacheEntry.java:685)
+	at org.eclipse.egit.core.UnitOfWork.run(UnitOfWork.java:115)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:680)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$8(IndexDiffCacheEntry.java:674)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:420)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:36:54.022
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:36:54.027
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:36:56.903
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:36:56.907
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:38:16.300
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:38:16.334
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:39:31.446
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 15:39:31.454
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:14:41.384
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:14:41.389
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:42:14.125
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:42:14.130
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:42:22.486
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:42:22.492
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:42:30.265
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:42:30.269
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:50:07.653
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:50:07.658
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:50:14.723
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 16:50:14.727
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 17:14:52.051
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 17:14:52.057
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 17:15:03.619
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 17:15:03.625
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 17:15:10.412
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 17:15:10.424
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 17:15:27.122
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 17:15:27.129
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wb.core 4 4 2020-05-31 17:25:59.317
+!MESSAGE Designer [1.10.0.202001230951.202005311725]: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at jdk.internal.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$1f348794.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5156)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4819)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.wb.core 4 4 2020-05-31 17:26:02.358
+!MESSAGE Designer [1.10.0.202001230951.202005311725]: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at jdk.internal.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$1f348794.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5156)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4819)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.wb.core 4 4 2020-05-31 17:28:27.672
+!MESSAGE Designer [1.10.0.202001230951.202005311725]: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at jdk.internal.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$1f348794.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5156)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4819)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.wb.core 4 4 2020-05-31 17:28:29.691
+!MESSAGE Designer [1.10.0.202001230951.202005311725]: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at jdk.internal.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$1f348794.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5156)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4819)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.wb.core 4 4 2020-05-31 17:28:36.138
+!MESSAGE Designer [1.10.0.202001230951.202005311725]: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at jdk.internal.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$1f348794.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5156)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4819)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.wb.core 4 4 2020-05-31 17:28:38.115
+!MESSAGE Designer [1.10.0.202001230951.202005311725]: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at jdk.internal.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$1f348794.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5156)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4819)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.wb.core 4 4 2020-05-31 17:28:40.981
+!MESSAGE Designer [1.10.0.202001230951.202005311725]: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at jdk.internal.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$1f348794.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5156)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4819)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.wb.core 4 4 2020-05-31 17:28:47.536
+!MESSAGE Designer [1.10.0.202001230951.202005311725]: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at jdk.internal.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$1f348794.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5156)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4819)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.wb.core 4 4 2020-05-31 17:29:27.281
+!MESSAGE Designer [1.10.0.202001230951.202005311725]: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo cannot be cast to class org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo (org.eclipse.wb.internal.swing.model.layout.GridLayoutInfo and org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3312732d)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at jdk.internal.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$1f348794.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5156)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4819)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:40:12.663
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:40:12.669
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:40:37.473
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:40:37.482
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:42:12.909
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:42:12.918
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:42:30.237
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:42:30.245
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:43:03.618
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:43:03.622
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:44:09.546
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:44:09.550
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:44:27.962
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:44:27.967
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:44:37.981
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:44:37.986
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:44:59.472
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:44:59.479
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:45:11.269
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:45:11.274
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:47:15.445
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:47:15.452
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:47:20.673
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:47:20.677
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:53:00.832
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:53:00.837
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:57:21.546
+!MESSAGE The POM for CompetenciaPokemon:Client:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-31 19:57:21.688
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Prueba (5) references closed project Client
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:347)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2020-05-31 19:57:21.689
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-31 19:57:21.692
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Prueba (5) references closed project Client
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:348)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2020-05-31 19:57:21.693
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-31 19:57:21.699
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Prueba (5) references closed project Client
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:375)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:349)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2020-05-31 19:57:21.699
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:57:22.692
+!MESSAGE The POM for CompetenciaPokemon:Client:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-31 19:57:22.703
+!MESSAGE Could not download sources for CompetenciaPokemon:Client:1.0-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact CompetenciaPokemon:Client:jar:sources:1.0-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing CompetenciaPokemon:Client:jar:sources:1.0-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-05-31 19:57:22.703
+!MESSAGE Could not resolve artifact CompetenciaPokemon:Client:jar:sources:1.0-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-05-31 19:57:22.703
+!MESSAGE Missing CompetenciaPokemon:Client:jar:sources:1.0-SNAPSHOT
+!SESSION 2020-05-31 20:13:35.775 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-31 20:13:45.381
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Luciano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-06-02 16:59:04.850 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-06-02 16:59:34.189
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Luciano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-02 17:17:48.878
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-02 17:17:48.884
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-02 18:10:44.479
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Prueba (5) references closed project Client
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:347)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2020-06-02 18:10:44.479
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-02 18:10:44.481
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Prueba (5) references closed project Client
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:348)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2020-06-02 18:10:44.481
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-02 18:10:44.485
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Prueba (5) references closed project Client
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:375)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:349)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2020-06-02 18:10:44.485
+!MESSAGE Launch configuration Prueba (5) references closed project Client
+
+!ENTRY org.eclipse.wb.core 4 4 2020-06-02 18:58:55.398
+!MESSAGE Designer [1.10.0.202001230951.202006021858]: 205 (Unable to parse source.). 		panel.setLayout(new net.miginfocom.swing.MigLayout()); line: 25 The serializable class AgregaEntrenador does not declare a static final serialVersionUID field of type long
+line: 39 JList is a raw type. References to generic type JList<E> should be parameterized
+line: 39 JList is a raw type. References to generic type JList<E> should be parameterized
+line: 43 The type net.miginfocom.swing.MigLayout is not accessible
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 		panel.setLayout(new net.miginfocom.swing.MigLayout()); line: 25 The serializable class AgregaEntrenador does not declare a static final serialVersionUID field of type long
+line: 39 JList is a raw type. References to generic type JList<E> should be parameterized
+line: 39 JList is a raw type. References to generic type JList<E> should be parameterized
+line: 43 The type net.miginfocom.swing.MigLayout is not accessible
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1616)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1386)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1289)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:414)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo$5.runEx(ContainerInfo.java:199)
+	at org.eclipse.wb.internal.core.model.util.ObjectInfoAction$1$1.run(ObjectInfoAction.java:86)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:324)
+	at org.eclipse.wb.internal.core.model.util.ObjectInfoAction$1.run(ObjectInfoAction.java:84)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.model.util.ObjectInfoAction.run(ObjectInfoAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). package vista;
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.TitledBorder;
+import javax.swing.border.LineBorder;
+import java.awt.Color;
+import java.awt.GridLayout;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
+import java.awt.Insets;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+import javax.swing.JTextField;
+import java.awt.FlowLayout;
+import javax.swing.BoxLayout;
+import java.awt.Font;
+import javax.swing.border.EtchedBorder;
+import javax.swing.JScrollPane;
+import javax.swing.JList;
+import javax.swing.JButton;
+import java.awt.CardLayout;
+class AgregaEntrenador extends JFrame {
+javax.swing.JPanel panelRegistroEntrenador=(javax.swing.JPanel) null;
+javax.swing.JTextField textNombre=(javax.swing.JTextField) null;
+public static void main(String[] args) {}
+AgregaEntrenador(Object __wbp_param) {
+super();javax.swing.JPanel panelDatosEntrenador = (javax.swing.JPanel) null;
+java.awt.GridBagLayout gbl_panelDatosEntrenador = (java.awt.GridBagLayout) null;
+javax.swing.JPanel panelNombre = (javax.swing.JPanel) null;
+java.awt.GridBagConstraints gbc_panelNombre = (java.awt.GridBagConstraints) null;
+javax.swing.JLabel lblNombre = (javax.swing.JLabel) null;
+javax.swing.JPanel panelEnvNombre = (javax.swing.JPanel) null;
+javax.swing.JPanel panelListaPokemones = (javax.swing.JPanel) null;
+java.awt.GridBagConstraints gbc_panelListaPokemones = (java.awt.GridBagConstraints) null;
+javax.swing.JScrollPane scrollPokemones = (javax.swing.JScrollPane) null;
+javax.swing.JList listPokemones = (javax.swing.JList) null;
+javax.swing.JPanel panelBotones = (javax.swing.JPanel) null;
+java.awt.GridBagConstraints gbc_panelBotones = (java.awt.GridBagConstraints) null;
+javax.swing.JPanel panel = (javax.swing.JPanel) null;
+		panel.setLayout(new net.miginfocom.swing.MigLayout());}
+} line: 25 The serializable class AgregaEntrenador does not declare a static final serialVersionUID field of type long
+line: 39 JList is a raw type. References to generic type JList<E> should be parameterized
+line: 39 JList is a raw type. References to generic type JList<E> should be parameterized
+line: 43 The type net.miginfocom.swing.MigLayout is not accessible
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 42 more
+Caused by: org.eclipse.wb.internal.core.utils.check.AssertionFailedException: null argument
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isNotNull(Assert.java:174)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isNotNull(Assert.java:159)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:957)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2930)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2998)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:228)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2927)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2975)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2927)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 43 more
+
+!ENTRY org.eclipse.wb.core 4 4 2020-06-02 19:12:07.250
+!MESSAGE Designer [1.10.0.202001230951.202006021858]: Invalid name specified: AgregaPokemon}.java
+!STACK 1
+Java Model Exception: Core Exception [code 0] Invalid name specified: AgregaPokemon}.java
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:52)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5862)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$WorkbenchRunnableAdapter.run(DesignerNewElementWizard.java:208)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: Java Model Exception: Java Model Status [Invalid name specified: AgregaPokemon}.java]
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:798)
+	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2207)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.finishPage(AbstractDesignWizard.java:75)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:114)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	... 6 more
+Caused by: org.eclipse.core.runtime.CoreException: Invalid name specified: AgregaPokemon}.java
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:116)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5862)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$WorkbenchRunnableAdapter.run(DesignerNewElementWizard.java:208)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: Java Model Exception: Java Model Status [Invalid name specified: AgregaPokemon}.java]
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:798)
+	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2207)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.finishPage(AbstractDesignWizard.java:75)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:114)
+	... 7 more
+!SUBENTRY 1 org.eclipse.wb.core 4 0 2020-06-02 19:12:07.250
+!MESSAGE Invalid name specified: AgregaPokemon}.java
+!STACK 1
+Java Model Exception: Java Model Status [Invalid name specified: AgregaPokemon}.java]
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:798)
+	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2207)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.finishPage(AbstractDesignWizard.java:75)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:114)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5862)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$WorkbenchRunnableAdapter.run(DesignerNewElementWizard.java:208)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 2 org.eclipse.jdt.core 4 983 2020-06-02 19:12:07.250
+!MESSAGE Invalid name specified: AgregaPokemon}.java
+!SESSION 2020-06-03 11:24:47.490 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 4 567 2020-06-03 11:24:53.489
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-06-03 11:24:53.489
+!MESSAGE Could not read metadata for 'asd'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/asd)[567]: java.lang.Exception: The project description file (.project) for 'asd' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:346)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:472)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:425)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2020-06-03 11:24:53.494
+!MESSAGE The project description file (.project) for 'asd' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'asd' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:346)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:472)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:425)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-06-03 11:25:14.338
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Luciano'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-03 11:28:53.566
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-03 11:28:53.569
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-03 11:28:54.861
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-03 11:28:54.864
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-03 11:30:21.374
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-03 11:30:21.379
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

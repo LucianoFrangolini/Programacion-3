@@ -7,6 +7,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Lucho\Programas Java\Programacion 3\asd maven"/>
+			<item value="C:\Lucho\Programas Java\Programacion 3\TP_Pokemones"/>
 			<item value="C:\Lucho\Programas Java\Programacion 3\Juego_Estrategia_Clase 5"/>
 			<item value="C:\Lucho\Programas Java\Programacion 3\Ejemplo_Concurrencia_2020"/>
 		</list>
@@ -24,6 +26,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Lucho\Programas Java\Programacion 3\TP_Pokemones\Grupo07"/>
 			<item value="C:\Lucho\Programas Java\Programacion 3\PatronObserverObservable"/>
 		</list>
 	</section>

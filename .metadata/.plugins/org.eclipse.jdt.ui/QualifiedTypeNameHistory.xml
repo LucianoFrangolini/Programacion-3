@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="modelo.Tren"/>
     <fullyQualifiedTypeName name="modelo.TramoDeVia"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="com.sun.java.swing.plaf.windows.TMSchema.State"/>
@@ -16,10 +15,20 @@
     <fullyQualifiedTypeName name="vista.IVista"/>
     <fullyQualifiedTypeName name="vista.Ventana"/>
     <fullyQualifiedTypeName name="modelo.CalculadoraBasica"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="util.Util"/>
     <fullyQualifiedTypeName name="modelo.Mazo"/>
     <fullyQualifiedTypeName name="modelo.Carta"/>
     <fullyQualifiedTypeName name="modelo.Jugador"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="modelo.Biblioteca"/>
+    <fullyQualifiedTypeName name="modelo.Socio"/>
+    <fullyQualifiedTypeName name="modelo.Libro"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="modelo.Donador"/>
+    <fullyQualifiedTypeName name="util.Util"/>
+    <fullyQualifiedTypeName name="modelo.SocioLibro"/>
+    <fullyQualifiedTypeName name="modelo.SocioRevista"/>
+    <fullyQualifiedTypeName name="modelo.Revista"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
 </qualifiedTypeNameHistroy>
